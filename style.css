@@ -5,7 +5,6 @@ html {
     background-color: rgba(255, 255, 255, 1);
     margin: 0;
     padding: 0;
-    background-color: #c1272d;
 }
 
 body {
@@ -56,18 +55,29 @@ body {
     width: 100%;
 }
 
+.headerbild {
+    display: grid;
+}
+
 .headerbild img {
     width: 100%;
 }
 
-.articles div {
-    padding: 1em;
-    background-color: #c5001e;
-    margin: 1em;
+.backgroundheading {
+    background-color: #c73226;
+    height: 0.5em;
+    width: 100%;
+    display: grid;
 }
 
+.referenzen {
+    margin-top: 0em;
+    float: left;
+    width: 50%;
+    display: grid;
+}
 
-main section h2 {
+.first {
     font-size: 1em;
     padding: 1em;
     color: #FFF;
@@ -75,7 +85,18 @@ main section h2 {
     text-transform: uppercase;
     font-weight: bolder;
     text-align: center;
-    margin: 2em 0em 0.5em 0em;
+    margin: 0em;
+}
+.second {
+    font-size: 1em;
+    padding: 1em;
+    color: #FFF;
+    background-color: #223343;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0em;
+    display: flow-root;
 }
 
 section div h4 {
@@ -88,10 +109,47 @@ section div h4 {
     font-weight: bolder;
     text-align: center;
     margin: 0em;
-    margin-top: 1em;
 }
+
 section div img {
     width: 100%;
+}
+
+footer {
+    padding-top: 1em;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 8em;
+    padding-block-end: 1em;
+}
+
+footer h6 {
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    color: #FFF;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-size: 0.4em;
+}
+
+footer p, footer a {
+    font-size: 0.45em;
+    display: flex;
+    text-decoration-line: none;
+    color: #FFF;
+    margin-block-end: 0.5em;
+}
+
+footer p:hover, footer a:hover {
+    color: #c73226;
+}
+
+.trennstrich {
+    border-left: 3px solid white;
+    height: 7em;
 }
 
 @media screen and (min-width: 768px) {
@@ -131,6 +189,26 @@ section div img {
     background-color: #c1272d;
     width: unset;
 }
+.referenzen {
+    float: left;
+    width: 33.333333%;
+    display: grid;
+}
+footer {
+    height: 13em;
+}
+
+footer h6 {
+    font-size: 0.6em;
+}
+
+footer p, footer a {
+    font-size: 1em;
+}
+.trennstrich {
+    border-left: 3px solid white;
+    height: 12em;
+}
 }
 
 
@@ -143,4 +221,9 @@ section div img {
 main section h2 {
     font-size: 1.35em;
 }    
+.referenzen {
+    float: left;
+    width: 25%;
+    display: grid;
+}
 }
