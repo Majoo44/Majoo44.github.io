@@ -181,8 +181,9 @@ footer p:hover, footer a:hover {
 }
 
 .menu li a {
-    font-size: 0.65em;
-    padding: 10px 5px 10px 5px;
+    font-size: 0.42em;
+    letter-spacing: -0.015em;
+    padding: 10px 5px 10px 5px;    
 }
 
 .menu li:hover{
@@ -214,7 +215,7 @@ footer p, footer a {
 
 @media screen and (min-width: 1150px) {
 .menu li a {
-    font-size: 1.1em;
+    font-size: 0.88em;
     padding: 10px 5px 10px 5px;    
 }
 
