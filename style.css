@@ -11,6 +11,20 @@ body {
     margin: 0em;
 }
 
+.links:hover {
+background-color: #c73226;
+letter-spacing: 0.3em;
+
+}
+
+.icon {
+    width: 5%;
+    position: absolute;
+    margin-top: 0.1em;
+    margin-left: 0.5em;
+    margin-right: auto;
+}
+
 .navbar {
     position: relative;
     width: 100%;
@@ -113,6 +127,12 @@ section div h4 {
 
 section div img {
     width: 100%;
+}
+
+.zumir img {
+    width: 100%;
+    margin: 0em;
+    display: block;
 }
 
 footer {
